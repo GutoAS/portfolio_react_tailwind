@@ -9,7 +9,7 @@ const About = () => {
       name="about"
       className=" bg-black flex justify-center items-center bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
-      <div className="flex flex-col md:flex-row w-full h-full py-3">
+      <div className="flex flex-col md:flex-row w-full h-full py-3 max-w-screen-lg">
         <div className="flex flex-1 md:basis-[30%] justify-center md:justify-end items-center mb-5 md:mb-0">
           <img
             src={gutoJpg}
@@ -21,7 +21,7 @@ const About = () => {
           <h1 className="font-bold text-white text-4xl text-center capitalize border-b-4 border-gray-500">
             About
           </h1>
-          <p className="text-start px-6 sm:px-0 font-normal sm:p-0 mt-5 text-gray-500 leading-6">
+          <p className="text-start px-6 sm:px-0 font-normal sm:p-0 mt-5 text-gray-500 leading-6 ">
             My name is Agostinho Soberano and I am passionate about the areas of
             technology so I decided to be a programmer. I am attending the
             Degree in Computer Engineering and Telecommunications. Currently, I

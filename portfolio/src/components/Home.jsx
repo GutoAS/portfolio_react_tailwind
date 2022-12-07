@@ -6,7 +6,7 @@ const Home = () => {
       name="home"
       className="w-[100%] h-[100vh] flex flex-wrap justify-center items-center bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="text-center flex flex-col justify-center items-center ">
+      <div className="text-center flex flex-col justify-center items-center max-w-screen-lg ">
         <h1 className="font-bold mb-2 uppercase text-3xl sm:text-4xl text-white hover:scale-105 duration-200 p-3 md:p-0">
           Agostinho Soberano
         </h1>

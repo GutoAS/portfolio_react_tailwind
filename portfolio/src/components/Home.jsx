@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <section
       name="home"
-      className="w-[100%] h-[100vh] flex flex-wrap justify-center items-center bg-gradient-to-b from-black to-gray-800"
+      className="w-[100%] h-[100vh] flex flex-wrap justify-center items-center bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="text-center flex flex-col justify-center items-center ">
-        <h1 className="font-bold mb-1 uppercase text-3xl sm:text-5xl text-teal-400 hover:scale-105 duration-200 ">
+        <h1 className="font-bold mb-1 uppercase text-3xl sm:text-5xl text-white hover:scale-105 duration-200 ">
           Agostinho Soberano
         </h1>
         <p className=" font-semibold text-md uppercase  sm:text-2xl text-gray-500 mb-10">

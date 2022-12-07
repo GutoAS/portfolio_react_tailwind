@@ -537,6 +537,10 @@ html {
   left: 0px;
 }
 
+.top-\[35\%\]{
+  top: 35%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -566,6 +570,10 @@ html {
   margin-left: 0.25rem;
 }
 
+.ml-\[-100px\]{
+  margin-left: -100px;
+}
+
 .flex{
   display: flex;
 }
@@ -586,6 +594,14 @@ html {
   height: 100vh;
 }
 
+.h-1\/4{
+  height: 25%;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -597,6 +613,10 @@ html {
 .w-fit{
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-40{
+  width: 10rem;
 }
 
 .cursor-pointer{
@@ -627,9 +647,27 @@ html {
   border-radius: 0.375rem;
 }
 
+.rounded-tr-md{
+  border-top-right-radius: 0.375rem;
+}
+
+.rounded-br-md{
+  border-bottom-right-radius: 0.375rem;
+}
+
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -652,12 +690,21 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.via-black{
+  --tw-gradient-to: rgb(0 0 0 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), #000, var(--tw-gradient-to);
+}
+
 .to-gray-800{
   --tw-gradient-to: #1f2937;
 }
 
 .to-blue-500{
   --tw-gradient-to: #3b82f6;
+}
+
+.to-gray-700{
+  --tw-gradient-to: #374151;
 }
 
 .px-4{
@@ -778,6 +825,10 @@ html {
   transition-duration: 300ms;
 }
 
+.hover\:ml-\[-10px\]:hover{
+  margin-left: -10px;
+}
+
 .hover\:rotate-90:hover{
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -793,6 +844,10 @@ html {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:rounded-md:hover{
+  border-radius: 0.375rem;
 }
 
 .group:hover .group-hover\:rotate-90{
@@ -819,5 +874,11 @@ html {
 
   .md\:hidden{
     display: none;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex{
+    display: flex;
   }
 }

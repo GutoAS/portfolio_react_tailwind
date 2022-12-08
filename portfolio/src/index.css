@@ -1088,6 +1088,10 @@ html {
     width: 50%;
   }
 
+  .md\:flex-1{
+    flex: 1 1 0%;
+  }
+
   .md\:basis-\[30\%\]{
     flex-basis: 30%;
   }

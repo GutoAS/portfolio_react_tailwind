@@ -10,14 +10,14 @@ const About = () => {
       className=" bg-black flex justify-center items-center bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="flex flex-col md:flex-row w-full h-full py-3 max-w-screen-lg">
-        <div className="flex flex-1 md:basis-[30%] justify-center md:justify-end items-center mb-5 md:mb-0">
+        <div className="flex md:flex-1 md:basis-[30%] justify-center md:justify-end items-center mb-5 md:mb-0">
           <img
             src={gutoJpg}
             alt="Agostinho_Soberano"
             className="w-[50%] rounded-[50%] "
           />
         </div>
-        <div className="flex flex-1  px-3  md:px-20 md:basis-[70%] flex-col justify-center items-center">
+        <div className="flex md:flex-1  px-3  md:px-20 md:basis-[70%] flex-col justify-center items-center">
           <h1 className="font-bold text-white text-4xl text-center capitalize border-b-4 border-gray-500">
             About
           </h1>

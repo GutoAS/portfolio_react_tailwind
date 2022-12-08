@@ -31,21 +31,26 @@ const About = () => {
             Concepts".
           </p>
           <div className="flex flex-row mt-5 md:hidden">
-            <div className="text-white ">
-              <a href="https://github.com/GutoAS" type="_blank">
+            <div className="text-white px-3">
+              <a href="https://github.com/GutoAS" target="_blank">
                 <FaGithub size={30} />
               </a>
             </div>
             <div className="text-white px-3">
-              <FaLinkedinIn size={30} />
+              <a
+                href="https://www.linkedin.com/in/agostinho-soberano-91748a115/"
+                target="_blank"
+              >
+                <FaLinkedinIn size={30} />
+              </a>
             </div>
             <div className="text-white px-3">
-              <a href="https://twitter.com/yesagostinho" type="_blank">
+              <a href="https://twitter.com/yesagostinho" target="_blank">
                 <FaTwitter size={30} />
               </a>
             </div>
             <div className="text-white px-3">
-              <a href="mailto:agostinhosoberano2@gmail.com" type="_blank">
+              <a href="mailto:agostinhosoberano2@gmail.com" target="_blank">
                 <FaEnvelope size={30} />
               </a>
             </div>

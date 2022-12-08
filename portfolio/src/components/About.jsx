@@ -26,7 +26,7 @@ const About = () => {
             technology so I decided to be a programmer. I am attending the
             Degree in Computer Engineering and Telecommunications. Currently, I
             am focusing on Frontend technologies but my current goal is to be a
-            Full Stack Developer. In my spare time I like to analyze the
+            Full Stack Developer. In my spare time, I like to analyze the
             financial market using a profitable strategy called SMC "Smart Money
             Concepts".
           </p>

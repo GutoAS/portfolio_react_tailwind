@@ -583,6 +583,10 @@ html {
   margin-left: -100px;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .inline{
   display: inline;
 }
@@ -623,6 +627,10 @@ html {
   height: 100%;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -648,6 +656,10 @@ html {
   width: 50%;
 }
 
+.w-20{
+  width: 5rem;
+}
+
 .max-w-screen-lg{
   max-width: 1024px;
 }
@@ -662,6 +674,10 @@ html {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -786,6 +802,10 @@ html {
   padding: 1rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -814,6 +834,16 @@ html {
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .pr-4{
@@ -900,6 +930,66 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-orange-500{
+  --tw-shadow-color: #f97316;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-500{
+  --tw-shadow-color: #3b82f6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-violet-500{
+  --tw-shadow-color: #8b5cf6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-pink-500{
+  --tw-shadow-color: #ec4899;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-cyan-500{
+  --tw-shadow-color: #06b6d4;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-gray-50{
+  --tw-shadow-color: #f9fafb;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-amber-400{
+  --tw-shadow-color: #fbbf24;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-600{
+  --tw-shadow-color: #2563eb;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-sky-500{
+  --tw-shadow-color: #0ea5e9;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-indigo-600{
+  --tw-shadow-color: #4f46e5;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-lime-500{
+  --tw-shadow-color: #84cc16;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-yellow-500{
+  --tw-shadow-color: #eab308;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .duration-200{
   transition-duration: 200ms;
 }
@@ -934,6 +1024,10 @@ html {
 @media (min-width: 640px){
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:p-0{

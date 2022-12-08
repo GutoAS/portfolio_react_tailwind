@@ -9,22 +9,32 @@ const Portfolio = () => {
     {
       id: 1,
       source: asbook,
+      linkDemo: "https://asninja.netlify.app/",
+      linkCode: "https://github.com/GutoAS/bootstrap_project.git",
     },
     {
       id: 2,
       source: asfood,
+      linkDemo: "https://asfoodninja.netlify.app/",
+      linkCode: "https://github.com/GutoAS/tailwind_foodninja.git",
     },
     {
       id: 3,
       source: aspatrix,
+      linkDemo: "https://gutoas.github.io/sass_project_patrix/",
+      linkCode: "https://github.com/GutoAS/sass_project_patrix.git",
     },
     {
       id: 4,
       source: gcorpmosh,
+      linkDemo: "https://gcorpmosh.netlify.app/",
+      linkCode: "https://github.com/GutoAS/moshified.git",
     },
     {
       id: 5,
       source: gcorporationBank,
+      linkDemo: "https://gcorporationbank.netlify.app/",
+      linkCode: "https://github.com/GutoAS/react_tailwind_hoodbank.git",
     },
   ];
 
@@ -42,7 +52,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0  w-full h-full">
-          {portfolios.map(({ id, source }) => (
+          {portfolios.map(({ id, source, linkDemo, linkCode }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={source}
@@ -52,10 +62,14 @@ const Portfolio = () => {
 
               <div className="flex items-center justify-center">
                 <button className="px-6 py-3 w-1/2 duration-200 hover:scale-105">
-                  Demo
+                  <a href={linkDemo} target="_blank">
+                    Demo
+                  </a>
                 </button>
                 <button className="px-6 py-3 w-1/2 duration-200 hover:scale-105">
-                  Code
+                  <a href={linkCode} target="_blank">
+                    Code
+                  </a>
                 </button>
               </div>
             </div>

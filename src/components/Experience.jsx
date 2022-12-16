@@ -62,30 +62,30 @@ const Experience = () => {
       title: "Javascript",
       style: "shadow-amber-400",
     },
-    {
-      id: 9,
-      src: typescript,
-      title: "TypeScript",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 10,
-      src: react,
-      title: "React",
-      style: "shadow-sky-500",
-    },
-    {
-      id: 11,
-      src: redux,
-      title: "Redux",
-      style: "shadow-indigo-600",
-    },
-    {
-      id: 12,
-      src: node,
-      title: "Node",
-      style: "shadow-lime-500",
-    },
+    // {
+    //   id: 9,
+    //   src: typescript,
+    //   title: "TypeScript",
+    //   style: "shadow-blue-600",
+    // },
+    // {
+    //   id: 10,
+    //   src: react,
+    //   title: "React",
+    //   style: "shadow-sky-500",
+    // },
+    // {
+    //   id: 11,
+    //   src: redux,
+    //   title: "Redux",
+    //   style: "shadow-indigo-600",
+    // },
+    // {
+    //   id: 12,
+    //   src: node,
+    //   title: "Node",
+    //   style: "shadow-lime-500",
+    // },
   ];
 
   return (

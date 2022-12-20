@@ -613,10 +613,6 @@ html {
   display: none;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-full{
   height: 100%;
 }
@@ -627,6 +623,10 @@ html {
 
 .h-20{
   height: 5rem;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .h-14{
@@ -964,6 +964,11 @@ html {
 
 .shadow-amber-400{
   --tw-shadow-color: #fbbf24;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-indigo-400{
+  --tw-shadow-color: #818cf8;
   --tw-shadow: var(--tw-shadow-colored);
 }
 

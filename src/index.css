@@ -997,6 +997,11 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-red-500{
+  --tw-shadow-color: #ef4444;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .duration-300{
   transition-duration: 300ms;
 }

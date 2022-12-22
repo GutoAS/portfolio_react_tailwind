@@ -11,7 +11,8 @@ import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import tailwind from "../assets/tailwind.png";
 import typescript from "../assets/typescript.png";
-import phpMySql from '../assets/php&mySql.png'
+import phpMySql from '../assets/php&mySql.png';
+import java from '../assets/java.png'
 
 const Experience = () => {
   const technologies = [
@@ -68,6 +69,12 @@ const Experience = () => {
       src: phpMySql,
       title: "PHP&MySql",
       style: "shadow-indigo-400",
+    },
+    {
+      id: 10,
+      src: java,
+      title: "Java",
+      style: "shadow-red-500",
     },
     // {
     //   id: 10,

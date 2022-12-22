@@ -972,6 +972,11 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-red-500{
+  --tw-shadow-color: #ef4444;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .shadow-blue-600{
   --tw-shadow-color: #2563eb;
   --tw-shadow: var(--tw-shadow-colored);
@@ -994,11 +999,6 @@ html {
 
 .shadow-gray-600{
   --tw-shadow-color: #4b5563;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-red-500{
-  --tw-shadow-color: #ef4444;
   --tw-shadow: var(--tw-shadow-colored);
 }
 

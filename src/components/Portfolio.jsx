@@ -3,6 +3,8 @@ import asfood from "../assets/portfolio/asfood.png";
 import aspatrix from "../assets/portfolio/aspatrix.png";
 import gcorpmosh from "../assets/portfolio/gcorpmosh.png";
 import gcorporationBank from "../assets/portfolio/gcorporationBank.png";
+import todoapp from '../assets/portfolio/todoapp.png';
+import stopwatch from '../assets/portfolio/stopwatch.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -35,6 +37,18 @@ const Portfolio = () => {
       source: gcorporationBank,
       linkDemo: "https://gcorporationbank.netlify.app/",
       linkCode: "https://github.com/GutoAS/react_tailwind_hoodbank.git",
+    },
+    {
+      id: 6,
+      source: todoapp,
+      linkDemo: "https://gutotodoapp.netlify.app/",
+      linkCode: "https://github.com/GutoAS/react_tailwind_todoapp.git",
+    },
+    {
+      id: 7,
+      source: stopwatch,
+      linkDemo: "https://gutoas.github.io/javascript_stopwatch",
+      linkCode: "https://github.com/GutoAS/javascript_stopwatch.git",
     },
   ];
 

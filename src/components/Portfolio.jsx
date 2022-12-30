@@ -5,7 +5,7 @@ import gcorpmosh from "../assets/portfolio/gcorpmosh.png";
 import gcorporationBank from "../assets/portfolio/gcorporationBank.png";
 import todoapp from "../assets/portfolio/todoapp.png";
 import stopwatch from "../assets/portfolio/stopwatch.png";
-import astheburguer from "../assets/portfolio/asburguerhouse";
+import astheburguer from "../assets/portfolio/asburguerhouse.png";
 
 const Portfolio = () => {
   const portfolios = [

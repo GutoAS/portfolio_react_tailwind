@@ -6,6 +6,7 @@ import gcorporationBank from "../assets/portfolio/gcorporationBank.png";
 import todoapp from "../assets/portfolio/todoapp.png";
 import stopwatch from "../assets/portfolio/stopwatch.png";
 import astheburguer from "../assets/portfolio/asburguerhouse.png";
+import game2048v1 from "../assets/portfolio/game2048v1.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -56,6 +57,12 @@ const Portfolio = () => {
       source: astheburguer,
       linkDemo: "https://astheburger.netlify.app/",
       linkCode: "https://github.com/GutoAS/reactBurguerHouse",
+    },
+    {
+      id: 10,
+      source: game2048v1,
+      linkDemo: "https://agostinho2048v1.netlify.app/",
+      linkCode: "https://github.com/GutoAS",
     },
   ];
 

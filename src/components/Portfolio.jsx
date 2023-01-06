@@ -9,6 +9,7 @@ import astheburguer from "../assets/portfolio/asburguerhouse.png";
 import game2048v1 from "../assets/portfolio/game2048v1.png";
 import gameHex2048 from "../assets/portfolio/gameHex2048.png";
 import reactvaral from "../assets/portfolio/reactvaral.png";
+import reactanimated2048 from "../assets/portfolio/reactanimated2048.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -75,6 +76,12 @@ const Portfolio = () => {
     {
       id: 12,
       source: reactvaral,
+      linkDemo: "https://reactbootstrapvaral.vercel.app/",
+      linkCode: "https://github.com/GutoAS",
+    },
+    {
+      id: 13,
+      source: reactanimated2048,
       linkDemo: "https://reactbootstrapvaral.vercel.app/",
       linkCode: "https://github.com/GutoAS",
     },

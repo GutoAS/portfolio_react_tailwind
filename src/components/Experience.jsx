@@ -11,8 +11,8 @@ import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import tailwind from "../assets/tailwind.png";
 import typescript from "../assets/typescript.png";
-import phpMySql from '../assets/php&mySql.png';
-import java from '../assets/java.png'
+import phpMySql from "../assets/php&mySql.png";
+import java from "../assets/java.png";
 
 const Experience = () => {
   const technologies = [
@@ -115,7 +115,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="grid w-full grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="grid w-full grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {technologies.map(({ id, src, title, style }) => (
             <div
               key={id}

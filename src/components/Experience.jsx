@@ -40,12 +40,12 @@ const Experience = () => {
       title: "Sass",
       style: "shadow-pink-500",
     },
-    {
-      id: 5,
-      src: firebase,
-      title: "firebase",
-      style: "shadow-yellow-500",
-    },
+    // {
+    //   id: 5,
+    //   src: firebase,
+    //   title: "firebase",
+    //   style: "shadow-yellow-500",
+    // },
     {
       id: 6,
       src: tailwind,
